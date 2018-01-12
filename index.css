@@ -4,7 +4,7 @@ body {font-family: georgia, serif;
 
 .header {position: relative;
 		text-align: center;
-		font-size: 300%;
+		font-size: 200%;
 		}
 
 .box {width: 100%;
@@ -53,12 +53,23 @@ body {font-family: georgia, serif;
 		float: left;
 		}
 
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+.endtext {color: white;
+		text-align: center;
+		position: relative;
+		top: 50px;}
 
 @media all and (max-width: 992px) {
 
 .header {position: relative;
 		text-align: center;
-		font-size: 250%;
+		font-size: 200%;
 }
 
 .box {width: 100%;
@@ -171,6 +182,17 @@ body {font-family: georgia, serif;
 		left: 100px;
 		right: 100px;
 		}
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin-top: 500px;
+}
+
+.endtext {color: white;
+		text-align: center;
+		position: relative;
+		top: 50px;}
 
 }
 
@@ -229,6 +251,18 @@ body {font-family: georgia, serif;
 		background-color: black;
 		margin: 0;
 		}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin-top: 550px;
+}
+
+.endtext {color: white;
+		text-align: center;
+		position: relative;
+		top: 50px;}
 
 }
 
